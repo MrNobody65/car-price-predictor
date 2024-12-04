@@ -26,7 +26,7 @@ Evaluating different models based on R-squared to get the best model: **Decision
 * **MAPE**: Shows the average error as a percentage of actual values, making it easy to compare across datasets.
 ```math
 \text{MAPE} = \frac{1}{n} \sum_{i=1}^{n} \left| \frac{\hat{y}_i - y_i}{y_i} \right| \times 100
-$$
+```
 * **R-squared**: Explains how much of the target's variation is captured by the model, with higher values meaning better fit.
 ```math
 R^2 = 1 - \frac{\sum_{i=1}^{n} (\hat{y}_i - y_i)^2}{\sum_{i=1}^{n} (y_i - \bar{y})^2}
