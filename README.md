@@ -1,5 +1,7 @@
 # car-price-predictor
 
+<img src = "./ml_diagram.png">
+
 ## Installation
 * Create a python environment (using `conda` or `python -m`).
 * Install necessary libraries:
